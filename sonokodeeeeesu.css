@@ -1,0 +1,54 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+
+body{
+  font-family:Times New Roman;
+  text-align:center;
+  background-color:#EEEEEE
+}
+
+.container{
+  margin:0 auto ;
+  width:1000px;
+}
+
+header{
+  background-color:rgba(170,0,0,0.55);
+  color:white;
+  height:70px;
+  width:100%;
+  position:fixed;
+  top:0px;
+  z-index:10;
+}
+
+.header-wrapper h1{
+  line-height:70px;
+  display:inline-block;
+}
+
+h2{
+  margin:130 0 50 0px;
+}
+
+.event{
+  margin-bottom:80px;
+}
+
+.photos-wrapper{
+  width:100%;
+}
+
+.photo-top{
+  width:80%;
+  margin-bottom:5px;
+}
+
+.photo-bottom{
+  width:40%
+}
